@@ -229,7 +229,13 @@ label {
 }
 
 button {
-  border-radius: 0;
+  border-radius: 1em;
+  overflow: visible;
+  width: 250px;
+  height: 40px;
+  margin: 2%;
+  background-color: black;
+  color: white;
 }
 
 button:focus {
@@ -10111,4 +10117,15 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+textarea {
+  overflow: auto;
+  resize: vertical;
+  margin: 1%;
+  height: 150px;
+  width: 600px;
+}
+
+#ContactMsg{
+  margin-top: 10px;
 }
