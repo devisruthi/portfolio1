@@ -6081,7 +6081,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #000000 !important;
+  background-color: #bd5d38 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9783,7 +9783,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #2d16af !important;
+  color: #bd5d38 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10069,6 +10069,10 @@ p.lead {
     display: block;
   }
 }
+.social-icons{
+  text-align: right; 
+  margin-bottom: 1rem !important;
+}
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
@@ -10079,7 +10083,7 @@ p.lead {
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-right: 1.5rem;
+  margin-right: 1.5rem;  
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
@@ -10110,6 +10114,13 @@ section.resume-section .resume-section-content {
     min-height: 100vh;
   }
 }
+textarea {
+  overflow: auto;
+  resize: vertical;
+  margin: 1%;
+  height: 150px;
+  width: 600px;
+}
 @media (min-width: 992px) {
   section.resume-section {
     padding-left: 3rem;
@@ -10118,14 +10129,39 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-textarea {
-  overflow: auto;
-  resize: vertical;
-  margin: 1%;
-  height: 150px;
-  width: 600px;
+
+@media(max-width: 768px) {
+  .social-icons{
+    text-align: left;    
+  }
+  .mb-5{
+    margin-bottom: 0.5rem !important ;
+  }
+}
+
+.btn-container{
+  margin: auto;
+  height:44px;
+  width:166.23px;
+  
+}
+
+.btn-read-more{
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  border:none;
+  padding:8px;
+  font-size:20px;
+  /* background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
+  color:white;
+  font-family:cursive;
+  box-sizing:border-box;
+  background-color: #343a40;
 }
 
 #ContactMsg{
-  margin-top: 10px;
+   margin-top: 10px;
 }
